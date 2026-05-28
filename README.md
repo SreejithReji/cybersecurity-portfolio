@@ -141,11 +141,11 @@ Comprehensive SPL query library for Splunk — beginner through advanced.
 
 | Project | Description | Timeline |
 |---|---|---|
-| SQL Security Investigation Lab | SQL queries for security data, joins, subqueries, investigation workflows | Q2 2024 |
-| Windows Event Log Notes | Comprehensive reference for all key Windows security event IDs | Q2 2024 |
-| Alert Triage Tool | Python tool for severity scoring and auto-classification | Q2 2024 |
-| Mini SOAR Script | End-to-end: enrich alert → lookup IOCs → auto-create ticket | Q3 2024 |
-| Detection Rules Library | Custom detection rules for Sentinel and Splunk | Q3 2024 |
+| SQL Security Investigation Lab | SQL queries for security data, joins, subqueries, investigation workflows | Q2 2026 |
+| Windows Event Log Notes | Comprehensive reference for all key Windows security event IDs | Q2 2026 |
+| Alert Triage Tool | Python tool for severity scoring and auto-classification | Q2 2026 |
+| Mini SOAR Script | End-to-end: enrich alert → lookup IOCs → auto-create ticket | Q3 2026 |
+| Detection Rules Library | Custom detection rules for Sentinel and Splunk | Q3 2026 |
 
 ---
 
