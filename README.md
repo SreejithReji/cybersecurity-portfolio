@@ -33,7 +33,7 @@ Python scripts built for real SOC analyst workflows.
 | Tool | What it does | Status |
 |---|---|---|
 | `ioc_checker.py` | Bulk IP enrichment via VirusTotal API — queries 70+ vendors | ✅ Complete |
-| `log_analyserttp.py` | Firewall log parser with threat intel cross-referencing and MITRE TTP mapping. | ✅ Complete |
+| `log_analyser_ttp.py` | Firewall log parser with threat intel cross-referencing and MITRE TTP mapping. | ✅ Complete |
 | `alert_triage.py` | Severity scoring and auto-classification from SIEM exports | ✅ Complete |
 | `report_generator.py` | Automated shift handover report from alert data | 📋 Planned |
 | `log_monitor.py` | Real-time log tail with rule-based alerting | 📋 Planned |
