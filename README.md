@@ -33,11 +33,13 @@ Python scripts built for real SOC analyst workflows.
 | Tool | What it does | Status |
 |---|---|---|
 | `ioc_checker.py` | Bulk IP enrichment via VirusTotal API — queries 70+ vendors | ✅ Complete |
-| `log_analyser_ttp.py` | Firewall log parser with threat intel cross-referencing and MITRE TTP mapping. | ✅ Complete |
 | `alert_triage.py` | Severity scoring and auto-classification from SIEM exports | ✅ Complete |
-| `report_generator.py` | Automated shift handover report from alert data | 📋 Planned |
-| `log_monitor.py` | Real-time log tail with rule-based alerting | 📋 Planned |
-| `mini_soar.py` | Enrich alert → lookup IOCs → auto-create incident ticket | 📋 Planned |
+| `log_analyser_ttp.py` | Firewall log parser with threat intel cross-referencing and MITRE TTP mapping | ✅ Complete |
+| `bulk_ioc_enricher` | Multi-source IP enrichment (VirusTotal + AbuseIPDB) with live MITRE ATT&CK mapping | ✅ Complete |
+| `csv_triage.py` | SIEM alert triage from CSV — severity scoring and prioritised sorting | ✅ Complete |
+| `log_monitor.py` | Real-time log tail with rotation handling and rule-based alerting | ✅ Complete |
+| `report_generator.py` | Automated shift handover report from alert data | 🔨 Trial version |
+| `mini_soar.py` | Full SOC automation pipeline — detect, enrich, score, ticket, notify via email | ✅ Complete |
 
 **Skills demonstrated:** Python scripting, REST API integration, JSON parsing, log analysis, file I/O, security automation
 
@@ -105,6 +107,7 @@ Comprehensive SPL query library for Splunk — beginner through advanced.
 - Web application security — OWASP Top 10, SQLi, XSS, path traversal, CSRF
 - Attack frameworks — MITRE ATT&CK, Cyber Kill Chain, Diamond Model
 - Endpoint security — EDR analysis, process investigation, persistence mechanisms
+- Security automation — SOAR-style pipelines, alert deduplication, automated ticketing and notification
 
 ### Query Languages
 - **KQL** — Microsoft Sentinel and Defender XDR threat hunting and detection
@@ -128,9 +131,8 @@ Comprehensive SPL query library for Splunk — beginner through advanced.
 
 ## Currently Learning
 
-- 🐍 Python SOC automation — log parsers, IOC enrichers, report generators, mini SOAR
+- 🔌 Connecting `mini_soar.py` to a live Wazuh + Raspberry Pi honeypot lab for real attack data
 - 📊 pandas for large-scale alert data analysis
-- 🔔 Automated alerting via Slack and email APIs
 - 🎯 TryHackMe SOC Level 1 learning path
 - 🗄️ SQL for security data investigation
 - 📜 CompTIA CySA+ preparation
@@ -143,8 +145,7 @@ Comprehensive SPL query library for Splunk — beginner through advanced.
 |---|---|---|
 | SQL Security Investigation Lab | SQL queries for security data, joins, subqueries, investigation workflows | Q2 2026 |
 | Windows Event Log Notes | Comprehensive reference for all key Windows security event IDs | Q2 2026 |
-| Alert Triage Tool | Python tool for severity scoring and auto-classification | Q2 2026 |
-| Mini SOAR Script | End-to-end: enrich alert → lookup IOCs → auto-create ticket | Q3 2026 |
+| Live Wazuh Integration | Connect `mini_soar.py` to real Wazuh alerts from home SOC lab | Q3 2026 |
 | Detection Rules Library | Custom detection rules for Sentinel and Splunk | Q3 2026 |
 
 ---
